@@ -1,0 +1,35 @@
+
+h1{
+    text-align: center;
+}
+
+/* this is upper section of the project */
+#upperPart{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+#inputBox{
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: large;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1rem;
+
+
+}
+#addButton{
+    background: rgb(255, 57, 57);
+    color: white;
+    height: 2.6rem;
+    border-radius:5px;
+    font-weight: 700;
+}
+
+/* here is the down section of the project */
+
+#lowerPart{
+    
+}
