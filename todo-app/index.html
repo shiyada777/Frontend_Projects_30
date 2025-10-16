@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>todo-app</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
+      <div id="navbar">
         <h1>Todo App</h1>
+        <div id="elements">
+        <button id="darkMode">Dark</button>
+        </div>
+      </div>
+    
     </header>
     <main>
-        <div id="upperPart">
-            <input type="text" name="inputBox" id="inputBox" placeholder="Enter a Task....">
-            <button id="addButton">Add Task</button>
-        </div>
-        <div id="lowerPart">
-    
-        </div>
-
+      <div id="upperPart">
+        <input
+          type="text"
+          name="inputBox"
+          id="inputBox"
+          placeholder="Enter a Task...."
+        />
+        <button id="addButton">Add Task</button>
+      </div>
+      <div id="lowerPart"></div>
     </main>
-    <footer>
-    </footer>
+    <footer></footer>
     <script src="script.js"></script>
-    
-</body>
+  </body>
 </html>
